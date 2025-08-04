@@ -103,26 +103,3 @@ h2 {
 .icon-mysql {
     color: #4479a1;
 }
-
-.voltar {
-    display: inline-flex;
-    align-items: center;
-    font-weight: 600;
-    color: #1e88e5;
-    text-decoration: none;
-    font-size: 1.1rem;
-    margin: 20px;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.voltar:hover {
-    color: #1565c0;
-}
-
-.voltar::before {
-    content: "←";
-    margin-right: 8px;
-    font-size: 1.5rem;
-    line-height: 1;
-}
