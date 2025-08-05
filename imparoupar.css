@@ -1,0 +1,29 @@
+body {
+     font-family: Arial, sans-serif;
+     padding: 20px;
+     background-color: #f0f0f0;
+     text-align: center;
+}
+
+input {
+     padding: 10px;
+     font-size: 16px;
+     width: 200px;
+}
+
+button {
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+}
+
+.titulo {
+     margin-top: 20px;
+     color: #333;
+}
+
+#img1 {
+     margin-top: 20px;
+     height: 100px;
+     
+}
