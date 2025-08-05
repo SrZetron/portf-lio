@@ -103,3 +103,26 @@ h2 {
 .icon-mysql {
     color: #4479a1;
 }
+
+.botoes {
+    margin-top: 30px;
+}
+
+.botao-projetos {
+    display: inline-block;
+    padding: 14px 35px;
+    background-color: #0a66c2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(10, 102, 194, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botao-projetos:hover {
+    background-color: #084a8a;
+    box-shadow: 0 6px 14px rgba(8, 74, 138, 0.5);
+    cursor: pointer;
+}
