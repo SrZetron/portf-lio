@@ -1,0 +1,19 @@
+body {
+background-color: #fbe3cb;
+text-align: center;
+font-family: sans-serif;
+}
+
+.titulo {
+color: #927757;
+text-align: center;
+font-size: 3rem;
+}
+
+.paragrafo {
+color: #744f25;
+text-align: justify;
+margin: 40px auto;
+width: 30%;
+font-size: 1.2rem;
+}
