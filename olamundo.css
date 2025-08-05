@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: sans-serif;
+    color: violet;
+}
+
+.titulo {
+    color: darkred;
+    text-align: left;
+}
+
+.paragrafo {
+    color: orangered;
+    text-align: justify;
+    font-weight: bold;
+}
