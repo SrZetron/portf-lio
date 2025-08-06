@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('petshop.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Patrick Hand', cursive;
+    color: #5e2d19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu-container {
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: rgba(255, 248, 238, 0.6);
+    border-radius: 20px;
+}
+
+.card {
+    background-color: #ffe0b8;
+    border: 2px solid #d97c51;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #fbd6aa;
+}

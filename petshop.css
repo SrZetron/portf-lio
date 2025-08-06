@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap');
+
+body {
+    margin: 0;
+    background: url('petshop.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Patrick Hand', cursive;
+    color: #b95d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    position: relative;
+    width: 420px;
+    height: 320px;
+    background: linear-gradient(145deg, #f9d494, #f2b66c);
+    border-radius: 12px;
+    box-shadow: 6px 6px 12px #c97c4a, -6px -6px 12px #ffdca5;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.8rem;
+    text-align: right;
+    margin: 0 0 10px 0;
+    padding-right: 10px;
+    padding-bottom: 0;
+    user-select: none;
+    line-height: 1;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    left: 0;
+    border-bottom: 2px solid #d88751;
+}
+
+.logo-text {
+    position: absolute;
+    top: 90px;
+    left: 25px;
+    font-size: 1.7rem;
+    font-style: italic;
+    letter-spacing: 1px;
+    user-select: none;
+    line-height: 1.1;
+}
+
+.logo-subtext {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4rem;
+    color: #d97c51;
+    user-select: none;
+}
+
+.btn-menu {
+    position: absolute;
+    top: 130px;
+    right: 120px;
+    background: linear-gradient(135deg, #e08950, #d1663a);
+    border: 3px solid #b35a32;
+    border-radius: 30px;
+    padding: 10px 35px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.6rem;
+    color: #fff8ee;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.btn-menu:hover {
+    background: linear-gradient(135deg, #d36632, #b84f22);
+}
