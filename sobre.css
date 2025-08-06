@@ -124,7 +124,9 @@ h2 {
 }
 
 .botao-voltar {
-    display: inline-block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
     padding: 14px 35px;
     background-color: #0a66c2;
     color: #fff;
@@ -135,6 +137,7 @@ h2 {
     box-shadow: 0 4px 10px rgba(10, 102, 194, 0.3);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     margin-right: 15px;
+    z-index: 1000;
 }
 
 .botao-voltar:hover {
@@ -142,3 +145,5 @@ h2 {
     box-shadow: 0 6px 14px rgba(8, 74, 138, 0.5);
     cursor: pointer;
 }
+
+
